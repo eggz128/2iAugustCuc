@@ -57,9 +57,10 @@ public class GoogleSteps {
         String thetitle = (String)dict.readDict("thetitle");
         System.out.println(thetitle);
         driver.findElement(By.name("q")).sendKeys(searchTerm + Keys.ENTER);
+
     }
 
-
+    //A comment here
     @Then("{string} is the top result")
     public void edgewordsIsTheTopResult(String result) {
         String firstResult = driver.findElement(By.cssSelector("#rso > div:first-child")).getText();
