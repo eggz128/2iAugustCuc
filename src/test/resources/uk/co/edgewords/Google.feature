@@ -3,8 +3,8 @@ Feature: Google search
 
   Scenario: Search google for edgewords
     Given I am on the GoOGle Homepage
-    When I search for "BBC"
-    Then "BBC" is the top result
+    When I search for "ITV"
+    Then "ITV" is the top result
   @Ignore
   Scenario Outline: Search google for stuff
     Given I am on the GoOGle Homepage
