@@ -1,4 +1,4 @@
-@Run
+@Run @GUI
 Feature: Google search
 
   Scenario: Search google for edgewords
